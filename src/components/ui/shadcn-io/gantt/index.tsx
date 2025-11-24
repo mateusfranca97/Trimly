@@ -47,14 +47,14 @@ import {
   useRef,
   useState,
 } from 'react';
-import { Card } from '@/components/ui/card';
+import { Card } from '../../../../components/ui/card';
 import {
   ContextMenu,
   ContextMenuContent,
   ContextMenuItem,
   ContextMenuTrigger,
-} from '@/components/ui/context-menu';
-import { cn } from '@/lib/utils';
+} from '../../../../components/ui/context-menu';
+import { cn } from '../../../../lib/utils';
 
 const draggingAtom = atom(false);
 const scrollXAtom = atom(0);
